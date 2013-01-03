@@ -35,7 +35,7 @@
     };
 
     Rect.prototype.show = function() {
-        var body = document.querySelector('body');
+        var body = global.document.querySelector('body');
         body.appendChild(this._el);
     };
 
